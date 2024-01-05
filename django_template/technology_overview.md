@@ -52,15 +52,12 @@ machine application must be installed prior to installing Vagrant.
 - [Oracle VirtualBox](/django_template/installation/virtualbox.md)
 - [Vagrant](/django_template/installation/vagrant.md)
 - [Ubuntu](/django_template/installation/ubuntu.md)
-- [Python]()
-- [Python]()
-- [Django]()
-- [DRF]()
-- [Sphinx]()
-- [Coverage]()
-- [Docker]()
-- [Nginx]()
-- [Pytest]()
-- [Django Unit Testing]()
+- [Python](/django_template/installation/python.md)
+- [Django](/django_template/installation/django.md)
+- [Docker](/django_template/installation/docker.md)
+- [Nginx](/django_template/installation/nginx.md)
+- [RabbitMQ](/django_template/installation/rabbitmq.md)
 
 ## DevOps Setup
+
+DevOps Setup is available [here](/django_template/installation/devops.md).

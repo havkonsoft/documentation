@@ -1,9 +1,11 @@
 # Install Django
 
 To install Django, we will need to set up Python virtual environment first. If
-you care pulling the django project template repository, then you can skip the
-Django installtion below. Since we are using Python3.10, we will install
-Python3.10-venv, and then install the `venv` folder inside the project folder.
+you are pulling the
+[django project template repository](https://github.com/havkonsoft/django_template),
+then you can skip the Django installtion below. Since we are using Python3.10,
+we will install Python3.10-venv, and then install the `venv` folder inside the
+project folder.
 
 ```bash
 sudo apt install python3.10-venv
