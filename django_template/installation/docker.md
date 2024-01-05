@@ -4,6 +4,7 @@
 
 - [Install Docker](#install-docker)
 - [Install Docker Compose](#install-docker-compose)
+- [Docker Postgres](#docker-postgres)
 
 ## Install Docker
 
@@ -175,7 +176,7 @@ db:
 
 #### The first database in Postgres should name postgres for superuser access. If this is not set up properly, accessing the database with default user will be difficult.
 
-### Docker Run
+## Docker Postgres
 
 Using the Docker command lines can also install PostgreSQL in Docker.
 
@@ -199,4 +200,16 @@ GRANT ALL PRIVILEGES ON DATABASE $db_name TO $user_name;
 ```bash
 docker run --name server-dev server -p 8000:8000 --env-file .env.dev
 docker exec -it server-dev bash
+```
+
+#### Backup Database
+
+```bash
+docker exec -t postgres-dev pg_dumpall -c -U postgres > dump_`date +%d-%m-%Y"_"%H_%M_%S`.sql
+```
+
+#### Restore Database
+
+```bash
+cat your_dump.sql | docker exec -i postgres-dev psql -d serverdb -U serverusr
 ```

@@ -16,3 +16,10 @@ sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.10
 ```
+
+Since we are using Python3.10, we will install `python3.10-venv`, and then
+install the `venv` folder inside the project folder.
+
+```bash
+sudo apt install python3.10-venv
+```
