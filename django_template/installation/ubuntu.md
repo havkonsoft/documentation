@@ -45,3 +45,17 @@ git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.cp cherry-pick
 ```
+
+## Clean Up Disk
+
+To find out how big your your apt cache is, run:
+
+```bash
+du -sh /var/cache/apt/archives
+```
+
+Clean the apt cache on Ubuntu using the command:
+
+```bash
+sudo apt-get clean
+```

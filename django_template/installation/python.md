@@ -21,5 +21,5 @@ Since we are using Python3.10, we will install `python3.10-venv`, and then
 install the `venv` folder inside the project folder.
 
 ```bash
-sudo apt install python3.10-venv
+sudo apt install -y python3.10-venv
 ```
