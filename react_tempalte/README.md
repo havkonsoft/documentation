@@ -24,7 +24,7 @@ Place holder for an image depending on the project
 - [Technologies Overview](/react_tempalte/technology_overview.md)
 - How To
   - Frontend Application
-  - DevOps Engineering
+  - Jest Unit Testing
 
 ## License
 
